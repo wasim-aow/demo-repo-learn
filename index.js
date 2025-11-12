@@ -5,9 +5,7 @@ app.get('/', (req, res) => {
         <p>This is me trying to create a PR on Company repo !</p>
         `);
 });
-app.get('/wasimSritama', (req, res) => {
-    res.send("Sritama is Beautiful | Wasim is too !");
-});
+
 app.get('/logan', (req, res) => {
     res.send("Hello World from Logan ");
 })
